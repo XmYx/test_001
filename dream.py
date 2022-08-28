@@ -28,8 +28,8 @@ def main():
         # some defaults suitable for stable diffusion weights
         width   = 512
         height  = 512
-        config  = "configs/stable-diffusion/v1-inference.yaml"
-        weights = "models/ldm/stable-diffusion-v1/model.ckpt"
+        config  = "/content/waifu-diffusion/configs/stable-diffusion/v1-inference.yaml"
+        weights = "/gdrive/MyDrive/model.ckpt"
 
     # command line history will be stored in a file called "~/.dream_history"
     if readline_available:
